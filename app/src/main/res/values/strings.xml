@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Search Book Online</string>
+    <string name="text_home">Home</string>
+    <string name="text_collection">Collection</string>
+    <string name="text_search">Search the book</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_book">SearchBookActivity</string>
+    <string name="text_rp">Rp</string>
+    <string name="title_activity_detail_book">DetailBookActivity</string>
+</resources>

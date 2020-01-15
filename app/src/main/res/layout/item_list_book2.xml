@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvProduct"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:visibility="visible"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_margin="0.1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <netzme.findbook.android.widget.RoundRectCornerImageView
+                android:id="@+id/ivBook"
+                android:scaleType="centerCrop"
+                android:layout_width="100dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv">
+
+            <LinearLayout
+                android:id="@+id/ll_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center_horizontal"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:text="Mencari Pasangan"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@color/colorApp"
+                        android:maxLines="1"
+                        android:maxLength="18"
+                        android:ellipsize="end"
+                        android:textSize="12sp"
+                        android:layout_gravity="left"
+                        android:gravity="center_horizontal"
+                        android:text="PT.copta Karya"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@android:color/black"
+                            android:fontFamily="sans-serif-light"
+                            android:id="@+id/tvPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 20.000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:visibility="gone"
+                            android:foregroundGravity="center"
+                            android:id="@+id/tvRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:textStyle="bold"
+                            android:maxLines="1"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="3.5"
+                            />
+
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:id="@+id/ratingBar"
+                            android:layout_gravity="center"
+                            android:scaleX=".5"
+                            android:max="5"
+                            android:backgroundTint="@color/colorApp"
+                            android:scaleY=".5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

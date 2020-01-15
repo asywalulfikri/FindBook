@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568272823679",
+    "firebase_url": "https://find-book-265008.firebaseio.com",
+    "project_id": "find-book-265008",
+    "storage_bucket": "find-book-265008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568272823679:android:34b922fb018710fd22264a",
+        "android_client_info": {
+          "package_name": "netzme.findbook.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568272823679-al202s409ghen0rqudbq24jrphrj0mc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "netzme.findbook.android",
+            "certificate_hash": "e2c9ca6c39d9dcf7395470cad59b9e59b457665e"
+          }
+        },
+        {
+          "client_id": "568272823679-bclhpgr917g28t5tv74nbmdpafkhrnkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFcOLielzx56Ia4Eoc9vGYHVb_8XYASws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568272823679-bclhpgr917g28t5tv74nbmdpafkhrnkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
